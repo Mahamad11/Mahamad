@@ -4,35 +4,52 @@
   text-decoration: none;
   list-style: none;
   }
-  body{
-    font-family: montserrat;
-    text-align: center;
-    background: #252839;
+body{
+  font-family: montserrat;
+  background: #252839;
+  display: flex;
+margin-left: 750px;
+margin-top: 450px;
   }
-.m{
-margin-top: 430px;
-font-size: 40px;
-}
-.m a {
+    a{
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      margin-left: 60px;
+    }
+    div{
+      display: inline;
+      }
+      a:hover{
+        background-color: rgb(20, 117, 243);
+        transition: 1s;
+
+      }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #252839;
+    display: flex;
+  }
+  div{
+margin-top: 340px;
+
+  }
+a{
+  font-size: 30px;
+  padding-left: 20px;
   color: white;
-  padding: 14px 30px;
+  display: block;
+  margin-left: 65px;
 }
-.m a:hover {
-  background-color: rgb(0, 183, 255);
-  color: black;
+a:hover{
+  background-color: rgb(20, 117, 243);
+  transition: 1s;
+
 }
-
-@media screen {
-  
+nav{
+  width: 393px;
+  height: 40px;
+  display: block;
 }
-
-
-  
-  @media only screen and (max-width: 100px) {
-
-body {
-background-color: red;
 }
-
-
-	}
